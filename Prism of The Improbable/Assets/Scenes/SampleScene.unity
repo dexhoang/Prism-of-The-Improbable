@@ -1423,7 +1423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c50bb5e73d8b64d799ad8533e02b3ff0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platform: {fileID: 604030215}
+  platform: {fileID: 1698168753}
   coloredPlatform: {fileID: 1971000248}
   player: {fileID: 1862854405}
   offset: {x: 0, y: 1.5, z: 0}
