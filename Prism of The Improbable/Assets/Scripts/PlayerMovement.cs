@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Credit to Brackeys on youtube for tutorial
+
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController2D controller;
