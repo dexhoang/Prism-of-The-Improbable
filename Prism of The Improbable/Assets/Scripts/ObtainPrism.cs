@@ -9,7 +9,6 @@ public class ObtainPrism : MonoBehaviour
     [SerializeField] private GameObject[] platform;
     [SerializeField] private Color[] prismColors;
     [SerializeField] private Transform player;
-    [SerializeField] Vector3 offset = new Vector3(0, 1.5f, 0);
 
     private int currentColorIndex = 0;
     private bool prismCollected = false;
@@ -41,7 +40,7 @@ public class ObtainPrism : MonoBehaviour
     {
         if (prismCollected && player != null)
         {
-            transform.position = player.position + offset;
+            transform.position = player.position + new Vector3(0, 0.8f, 0);
         }
 
         if (prismCollected && Input.GetKeyDown(KeyCode.J))
@@ -50,6 +49,7 @@ public class ObtainPrism : MonoBehaviour
         }
     }
 
+    // Changes color of prism based on array and calls function to turn off/on platforms
     private void ChangePrismColor()
     {
         currentColorIndex = (currentColorIndex + 1) % prismColors.Length;
