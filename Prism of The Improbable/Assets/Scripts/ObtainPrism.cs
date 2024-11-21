@@ -6,25 +6,31 @@ using UnityEngine;
 
 public class ObtainPrism : MonoBehaviour
 {
-    [SerializeField] private GameObject platform;
-    [SerializeField] private GameObject coloredPlatform; 
+    [SerializeField] private GameObject[] platform;
+    [SerializeField] private Color[] prismColors;
+    [SerializeField] private Transform player;
+    [SerializeField] Vector3 offset = new Vector3(0, 1.5f, 0);
 
-    public Transform player;  
-    public Vector3 offset = new Vector3(0, 1.5f, 0);  
-    private bool prismCollected = false; 
+    private int currentColorIndex = 0;
+    private bool prismCollected = false;
+    private SpriteRenderer prismRenderer;
+
+    private void Start()
+    {
+        prismRenderer = GetComponent<SpriteRenderer>();
+        if (prismRenderer != null && prismColors.Length > 0)
+        {
+            prismRenderer.color = prismColors[currentColorIndex];
+        }
+    }
 
     // Interacting with the prism and changing platform ability
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && !prismCollected)
         {
-            SetPlatformProperties(coloredPlatform, "Ground", 1f);  // Fully opaque, solid layer
-            Debug.Log("Solid platform activated and opaque!");
-
-            SetPlatformProperties(platform, "TransparentPlatform", 0.3f); // Semi-transparent, non-collidable layer
-            Debug.Log("Transparent platform deactivated!");
-
             prismCollected = true;
+            SetPlatformProperties(platform[0], "Ground", 1f);
             Debug.Log("Prism collected, floating above player");
 
         }
@@ -37,6 +43,36 @@ public class ObtainPrism : MonoBehaviour
         {
             transform.position = player.position + offset;
         }
+
+        if (prismCollected && Input.GetKeyDown(KeyCode.J))
+        {
+            ChangePrismColor();
+        }
+    }
+
+    private void ChangePrismColor()
+    {
+        currentColorIndex = (currentColorIndex + 1) % prismColors.Length;
+
+        if (prismRenderer != null)
+        {
+            prismRenderer.color = prismColors[currentColorIndex];
+        }
+
+        for (int i = 0; i < platform.Length; i++)
+        {
+            if (i == currentColorIndex)
+            {
+                SetPlatformProperties(platform[i], "Ground", 1f);
+                Debug.Log($"Platform {i} activated");
+            }
+            else
+            {
+                SetPlatformProperties(platform[i], "TransparentPlatform", 0.3f);
+                Debug.Log($"Platform {i} deactivated");
+            }
+        }
+
     }
 
 
