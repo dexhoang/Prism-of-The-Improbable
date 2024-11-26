@@ -7,10 +7,24 @@ public class WinLoseScreen : MonoBehaviour
     public GameObject winCanvas; 
     public GameObject loseCanvas; 
     public GameObject otherMenu; 
-    public int requiredKeys = 2; 
+    public int requiredKeys = 2;
     private int keysCollected = 0; 
 
-    // Method to call when a key is collected
+    public static WinLoseScreen instance; 
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    // Method to increment the keys collected
     public void CollectKey()
     {
         keysCollected++;
@@ -23,19 +37,21 @@ public class WinLoseScreen : MonoBehaviour
         {
             if (keysCollected >= requiredKeys)
             {
+                // Player has enough keys
                 if (otherMenu != null)
                 {
                     otherMenu.SetActive(false);
                 }
 
-                winCanvas.SetActive(true);
-                Debug.Log("Menu open");
-                //Time.timeScale = 0f;
+                winCanvas.SetActive(true); 
+                Debug.Log("Player wins!");
+                // Time.timeScale = 0f; 
             }
             else
             {
-                Debug.Log("Not enough keys to open the door!");
-                loseCanvas.SetActive(true);
+                // Player doesn't have enough keys
+                loseCanvas.SetActive(true); 
+                Debug.Log("Not enough keys! Player loses.");
             }
         }
     }

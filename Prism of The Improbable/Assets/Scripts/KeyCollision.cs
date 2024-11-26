@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class KeyCollision : MonoBehaviour
 {
+    private int keyCount;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +22,9 @@ public class KeyCollision : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Player has acquired key!");
-            gameObject.SetActive(false);
+            Debug.Log("Player collected a key!");
+            WinLoseScreen.instance.CollectKey(); // Notify WinLoseScreen
+            gameObject.SetActive(false); 
         }
     }
 }
