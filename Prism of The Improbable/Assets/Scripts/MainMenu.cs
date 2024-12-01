@@ -22,6 +22,14 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+    public void Lvl2Scene()
+    {
+        SceneManager.LoadSceneAsync(2);
+    }
+    public void Lvl3Scene()
+    {
+        SceneManager.LoadSceneAsync(3);
+    }
 
     public void QuitGame()
     {
