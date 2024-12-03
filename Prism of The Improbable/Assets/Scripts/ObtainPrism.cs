@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class ObtainPrism : MonoBehaviour
 {
-    [SerializeField] private Color[] prismColors; // Array of colors for the prism
-    [SerializeField] private Transform player;   // Reference to the player
+    [SerializeField] private Sprite[] prismSprites; // Array of sprites for the prism
+    [SerializeField] private Transform player;     // Reference to the player
 
-    private int currentColorIndex = 0;
+    private int currentSpriteIndex = 0;
     private bool prismCollected = false;
     private SpriteRenderer prismRenderer;
 
@@ -21,9 +21,9 @@ public class ObtainPrism : MonoBehaviour
     private void Start()
     {
         prismRenderer = GetComponent<SpriteRenderer>();
-        if (prismRenderer != null && prismColors.Length > 0)
+        if (prismRenderer != null && prismSprites.Length > 0)
         {
-            prismRenderer.color = prismColors[currentColorIndex];
+            prismRenderer.sprite = prismSprites[currentSpriteIndex];
         }
     }
 
@@ -35,10 +35,9 @@ public class ObtainPrism : MonoBehaviour
             prismCollected = true;
             Debug.Log("Prism collected, floating above player");
 
-            audioManager.PlaySFX(audioManager.prism);       // play sound effect
-        
-    
-            string targetTag = "PlatformTag" + currentColorIndex;
+            audioManager.PlaySFX(audioManager.prism);
+
+            string targetTag = "PlatformTag" + currentSpriteIndex;
 
             GameObject[] activePlatforms = GameObject.FindGameObjectsWithTag(targetTag);
             foreach (GameObject platform in activePlatforms)
@@ -58,44 +57,45 @@ public class ObtainPrism : MonoBehaviour
             transform.position = player.position + new Vector3(0, 0.8f, 0);
         }
 
+        // Changes to previous sprite when left click/J is pressed, next sprite when right/K is pressed
         if (prismCollected && Input.GetMouseButtonDown(0))
         {
-            ChangePrismColor(-1); // Left mouse click for the previous color
-            Debug.Log("Left mouse button clicked, changing to previous color");
+            ChangePrismSprite(-1);
+            audioManager.PlaySFX(audioManager.prism);
         }
 
         if (prismCollected && Input.GetKeyDown(KeyCode.J))
         {
-            ChangePrismColor(-1); // Left mouse click for the previous color
-            Debug.Log("Left mouse button clicked, changing to previous color");
+            ChangePrismSprite(-1);
+            audioManager.PlaySFX(audioManager.prism);
         }
 
         if (prismCollected && Input.GetMouseButtonDown(1))
         {
-            ChangePrismColor(1); // Right mouse click for the next color
-            Debug.Log("Right mouse button clicked, changing to next color");
+            ChangePrismSprite(1);
+            audioManager.PlaySFX(audioManager.prism);
         }
 
         if (prismCollected && Input.GetKeyDown(KeyCode.K))
         {
-            ChangePrismColor(-1); // Left mouse click for the previous color
-            Debug.Log("Left mouse button clicked, changing to previous color");
+            ChangePrismSprite(1);
+            audioManager.PlaySFX(audioManager.prism);
         }
     }
 
-    // Changes the color of the prism and updates platform properties
-    private void ChangePrismColor(int direction)
+    // Changes the sprite of the prism and updates platform properties
+    private void ChangePrismSprite(int direction)
     {
-        // Calculate the new color index
-        currentColorIndex = (currentColorIndex + direction + prismColors.Length) % prismColors.Length;
+        // Calculate the new sprite index
+        currentSpriteIndex = (currentSpriteIndex + direction + prismSprites.Length) % prismSprites.Length;
 
         if (prismRenderer != null)
         {
-            prismRenderer.color = prismColors[currentColorIndex];
+            prismRenderer.sprite = prismSprites[currentSpriteIndex];
         }
 
-        // Tag for the current color index
-        string targetTag = "PlatformTag" + currentColorIndex; // Example: PlatformTag0, PlatformTag1, etc.
+        // Tag for the current sprite index
+        string targetTag = "PlatformTag" + currentSpriteIndex;
 
         // Activate platforms with the target tag
         GameObject[] activePlatforms = GameObject.FindGameObjectsWithTag(targetTag);
@@ -106,11 +106,11 @@ public class ObtainPrism : MonoBehaviour
         }
 
         // Deactivate platforms with other tags
-        for (int i = 0; i < prismColors.Length; i++)
+        for (int i = 0; i < prismSprites.Length; i++)
         {
-            if (i != currentColorIndex)
+            if (i != currentSpriteIndex)
             {
-                string otherTag = "PlatformTag" + i; // Other tags
+                string otherTag = "PlatformTag" + i;
                 GameObject[] inactivePlatforms = GameObject.FindGameObjectsWithTag(otherTag);
                 foreach (GameObject platform in inactivePlatforms)
                 {
@@ -135,5 +135,3 @@ public class ObtainPrism : MonoBehaviour
         }
     }
 }
-
- 
