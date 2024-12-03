@@ -6,6 +6,9 @@ using UnityEngine.UI;
 // Followed video tutorial: HOW TO MAKE HEART/HEALTH SYSTEM - UNITY TUTORIAL by Blackthornprod
 // Video link: https://www.youtube.com/watch?v=3uyolYVsiWc 
 
+// Followed youtube video: Unity Player Health and Health bar Tutorial by MoreBBlakeyyy
+// Video link: https://www.youtube.com/watch?app=desktop&v=bRcMVkJS3XQ&t=1m53s 
+
 public class playerHealth : MonoBehaviour
 {
     public int health;
@@ -44,39 +47,25 @@ public class playerHealth : MonoBehaviour
             gameObject.SetActive(false); // Hide player instead of destroying
         }
     }
+
+    private Vector3 respawnPosition;
+
+    private void Start()
+    {
+        // Set initial respawn position to the player's starting position
+        respawnPosition = transform.position;
+    }
+
+    public void SetRespawnPosition(Vector3 newPosition)
+    {
+        respawnPosition = newPosition;
+    }
+
+    public void Respawn()
+    {
+        // Reset the player's position to the last checkpoint
+        transform.position = respawnPosition;
+        health = 100; // Reset health or set to a specific value
+    }
+
 }
-
-
-
-/*using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-
-// Followed youtube video: Unity Player Health and Health bar Tutorial by MoreBBlakeyyy
-// Video link: https://www.youtube.com/watch?app=desktop&v=bRcMVkJS3XQ&t=1m53s 
-
-public class playerHealth : MonoBehaviour
-{
-    public float health;
-    public float maxHealth;
-    public Image healthBar;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        maxHealth = health;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        healthBar.fillAmount = Mathf.Clamp(health / maxHealth, 0, 1);
-
-        if (health <= 0)
-        {
-            GameOverCanvas.instance.TriggerGameOver();
-            gameObject.SetActive(false); // Hide player instead of destroying
-        }
-    }
-}*/

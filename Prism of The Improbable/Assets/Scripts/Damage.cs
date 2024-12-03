@@ -8,9 +8,8 @@ using UnityEngine;
 public class Damage : MonoBehaviour
 {
     public playerHealth pHealth;
-    public Transform player, destination;
-    public GameObject playerg;
-    public int damage; // Changed from float to int
+    public GameObject playerg; 
+    public int damage; 
 
     private AudioManager audioManager;
 
@@ -23,17 +22,18 @@ public class Damage : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // Decrease health
+            // Access the player's health component
             playerHealth playerHealthComponent = other.gameObject.GetComponent<playerHealth>();
             if (playerHealthComponent != null)
             {
+                // Decrease player's health
                 playerHealthComponent.health -= damage;
-            }
 
-            // Teleport player to destination
-            playerg.SetActive(false);
-            player.position = destination.position;
-            playerg.SetActive(true);
+                // Respawn player to the last checkpoint
+                playerg.SetActive(false); // Optionally disable player object for visual feedback
+                playerHealthComponent.Respawn();
+                playerg.SetActive(true); // Reactivate player object
+            }
 
             // Play damage sound effect
             audioManager.PlaySFX(audioManager.damage);
