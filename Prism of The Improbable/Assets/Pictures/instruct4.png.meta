@@ -1,0 +1,877 @@
+fileFormatVersion: 2
+guid: aeb0eb937cc31394f927a8b643eb51e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6141105003183291578
+    second: instruct4 1_0
+  - first:
+      213: -6385934825708685388
+    second: instruct4 1_1
+  - first:
+      213: -6109399186616141738
+    second: instruct4 1_2
+  - first:
+      213: 7707536206574430403
+    second: instruct4 1_3
+  - first:
+      213: -3297851784387142286
+    second: instruct4 1_4
+  - first:
+      213: 7430802614635506971
+    second: instruct4 1_5
+  - first:
+      213: -363181520131380154
+    second: instruct4 1_6
+  - first:
+      213: -6097650367638665616
+    second: instruct4 1_7
+  - first:
+      213: -5854801454781909225
+    second: instruct4 1_8
+  - first:
+      213: 2383165415421983575
+    second: instruct4 1_9
+  - first:
+      213: -4120002806924054854
+    second: instruct4 1_10
+  - first:
+      213: 9114918178687205242
+    second: instruct4 1_11
+  - first:
+      213: -4342842444811372432
+    second: instruct4 1_12
+  - first:
+      213: 6444765631841830574
+    second: instruct4 1_13
+  - first:
+      213: -5768164173766879062
+    second: instruct4 1_14
+  - first:
+      213: -5403446504810083691
+    second: instruct4 1_15
+  - first:
+      213: -2077033655804027803
+    second: instruct4 1_16
+  - first:
+      213: 227143364908927624
+    second: instruct4 1_17
+  - first:
+      213: 5046129972499364560
+    second: instruct4 1_18
+  - first:
+      213: 9006005280558822217
+    second: instruct4 1_19
+  - first:
+      213: 7249614229483045532
+    second: instruct4 1_20
+  - first:
+      213: -4708347685797322442
+    second: instruct4 1_21
+  - first:
+      213: -6388099091210552591
+    second: instruct4 1_22
+  - first:
+      213: -7254482862141924212
+    second: instruct4 1_23
+  - first:
+      213: -1382410584139285473
+    second: instruct4 1_24
+  - first:
+      213: 5961823333057554368
+    second: instruct4 1_25
+  - first:
+      213: -4392524907444244628
+    second: instruct4 1_26
+  - first:
+      213: 6724497930266619355
+    second: instruct4 1_27
+  - first:
+      213: 1982625771862858958
+    second: instruct4 1_28
+  - first:
+      213: 6308447655701451020
+    second: instruct4 1_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: instruct4 1_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 8
+        width: 223
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc3d13a676993550800000000000000
+      internalID: 6141105003183291578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 68
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b776d23c1a9067a0800000000000000
+      internalID: -6385934825708685388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 68
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6583faa0fcd073ba0800000000000000
+      internalID: -6109399186616141738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 68
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8a456f75ba6fa60800000000000000
+      internalID: 7707536206574430403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_4
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 68
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d57bd564dab32d0800000000000000
+      internalID: -3297851784387142286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_5
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 68
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1da461ab938f1760800000000000000
+      internalID: 7430802614635506971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_6
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 68
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c2597e458b5faf0800000000000000
+      internalID: -363181520131380154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 68
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0760e502c4bc06ba0800000000000000
+      internalID: -6097650367638665616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_8
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 68
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717b841d8119fbea0800000000000000
+      internalID: -5854801454781909225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_9
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 68
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b393b9154b21120800000000000000
+      internalID: 2383165415421983575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_10
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 38
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abeedab964fc2d6c0800000000000000
+      internalID: -4120002806924054854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 38
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fb6656ac1be7e70800000000000000
+      internalID: 9114918178687205242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_12
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 38
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07877894ecf1bb3c0800000000000000
+      internalID: -4342842444811372432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_13
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 38
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea604924238607950800000000000000
+      internalID: 6444765631841830574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 38
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa89d78be3d53ffa0800000000000000
+      internalID: -5768164173766879062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_15
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 38
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a08f5580a1305b0800000000000000
+      internalID: -5403446504810083691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_16
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 38
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c154705e4ec23e0800000000000000
+      internalID: -2077033655804027803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_17
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 38
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88acb7adfa9f62300800000000000000
+      internalID: 227143364908927624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_18
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 38
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dab6457974770640800000000000000
+      internalID: 5046129972499364560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_19
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 38
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94330093612cbfc70800000000000000
+      internalID: 9006005280558822217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_20
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 10
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9244fa4bbdcb9460800000000000000
+      internalID: 7249614229483045532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_21
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 10
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631a405c9b698aeb0800000000000000
+      internalID: -4708347685797322442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_22
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 10
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa366ed8b9e857a0800000000000000
+      internalID: -6388099091210552591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_23
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 10
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c1fd4d546e25b90800000000000000
+      internalID: -7254482862141924212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_24
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 10
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c33a6e5e0b0dce0800000000000000
+      internalID: -1382410584139285473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_25
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 10
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7e78cfbb6acb250800000000000000
+      internalID: 5961823333057554368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_26
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 10
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6feab88edd9a03c0800000000000000
+      internalID: -4392524907444244628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_27
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 10
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd246a5d37325d50800000000000000
+      internalID: 6724497930266619355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_28
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 10
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc9b6692a3b38b10800000000000000
+      internalID: 1982625771862858958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct4 1_29
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 10
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c011b3228bb1c8750800000000000000
+      internalID: 6308447655701451020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 641c1a556599a104daf8e94f8cb1b008
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      instruct4 1_0: 6141105003183291578
+      instruct4 1_1: -6385934825708685388
+      instruct4 1_10: -4120002806924054854
+      instruct4 1_11: 9114918178687205242
+      instruct4 1_12: -4342842444811372432
+      instruct4 1_13: 6444765631841830574
+      instruct4 1_14: -5768164173766879062
+      instruct4 1_15: -5403446504810083691
+      instruct4 1_16: -2077033655804027803
+      instruct4 1_17: 227143364908927624
+      instruct4 1_18: 5046129972499364560
+      instruct4 1_19: 9006005280558822217
+      instruct4 1_2: -6109399186616141738
+      instruct4 1_20: 7249614229483045532
+      instruct4 1_21: -4708347685797322442
+      instruct4 1_22: -6388099091210552591
+      instruct4 1_23: -7254482862141924212
+      instruct4 1_24: -1382410584139285473
+      instruct4 1_25: 5961823333057554368
+      instruct4 1_26: -4392524907444244628
+      instruct4 1_27: 6724497930266619355
+      instruct4 1_28: 1982625771862858958
+      instruct4 1_29: 6308447655701451020
+      instruct4 1_3: 7707536206574430403
+      instruct4 1_4: -3297851784387142286
+      instruct4 1_5: 7430802614635506971
+      instruct4 1_6: -363181520131380154
+      instruct4 1_7: -6097650367638665616
+      instruct4 1_8: -5854801454781909225
+      instruct4 1_9: 2383165415421983575
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
