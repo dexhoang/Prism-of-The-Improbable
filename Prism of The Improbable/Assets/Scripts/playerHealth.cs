@@ -41,10 +41,11 @@ public class playerHealth : MonoBehaviour
         }
 
         // Check if the player is out of health
+        // If so, then set player as inactive 
         if (health <= 0)
         {
             GameOverCanvas.instance.TriggerGameOver();
-            gameObject.SetActive(false); // Hide player instead of destroying
+            gameObject.SetActive(false);
         }
     }
 
@@ -65,7 +66,7 @@ public class playerHealth : MonoBehaviour
     {
         // Reset the player's position to the last checkpoint
         transform.position = respawnPosition;
-        health = 100; // Reset health or set to a specific value
+        health = health;
     }
 
-}
+} 
