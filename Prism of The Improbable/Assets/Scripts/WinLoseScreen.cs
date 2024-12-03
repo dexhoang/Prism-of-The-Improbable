@@ -7,7 +7,7 @@ public class WinLoseScreen : MonoBehaviour
     public GameObject winCanvas; 
     public GameObject loseCanvas; 
     public GameObject otherMenu; 
-    public int requiredKeys = 2;
+    public int requiredKeys;
     private int keysCollected = 0; 
 
     public static WinLoseScreen instance; 
