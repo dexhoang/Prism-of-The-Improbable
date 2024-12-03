@@ -191,7 +191,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      greenprism_0: -5935848315764962752
+      greenprism_1: 675576157533727509
+      greenprism_2: -9022832566053335197
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

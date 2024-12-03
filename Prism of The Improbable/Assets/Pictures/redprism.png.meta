@@ -191,7 +191,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      redprism_0: -565777591978337927
+      redprism_1: -2038271728097057654
+      redprism_2: -5776200784197842673
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

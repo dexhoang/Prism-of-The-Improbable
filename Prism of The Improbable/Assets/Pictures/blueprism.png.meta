@@ -191,7 +191,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      blueprism_0: -4474052145267332118
+      blueprism_1: -5267975983957325481
+      blueprism_2: -8152823569602155448
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
