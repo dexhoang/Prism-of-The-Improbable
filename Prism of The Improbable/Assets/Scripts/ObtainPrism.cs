@@ -2,13 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// Used Door trigger and destroy door function from week 2 tutorial as reference
-
 public class ObtainPrism : MonoBehaviour
 {
-    [SerializeField] private GameObject[] platform;
-    [SerializeField] private Color[] prismColors;
-    [SerializeField] private Transform player;
+    [SerializeField] private Color[] prismColors; // Array of colors for the prism
+    [SerializeField] private Transform player;   // Reference to the player
 
     private int currentColorIndex = 0;
     private bool prismCollected = false;
@@ -30,67 +27,93 @@ public class ObtainPrism : MonoBehaviour
         }
     }
 
-    // Interacting with the prism and changing platform ability
+    // Interacting with the prism
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && !prismCollected)
         {
             prismCollected = true;
-            SetPlatformProperties(platform[0], "Ground", 1f);
             Debug.Log("Prism collected, floating above player");
 
             audioManager.PlaySFX(audioManager.prism);       // play sound effect
+        
+    
+            string targetTag = "PlatformTag" + currentColorIndex;
+
+            GameObject[] activePlatforms = GameObject.FindGameObjectsWithTag(targetTag);
+            foreach (GameObject platform in activePlatforms)
+            {
+                SetPlatformProperties(platform, "Ground", 1f);
+                Debug.Log($"Activated platform with tag {targetTag}: {platform.name}");
+            }
         }
     }
 
-    // Should make the prism float on top of the player if the player did interact with the prism
-    void Update()
+    // Update method for floating prism and changing platform properties
+    private void Update()
     {
         if (prismCollected && player != null)
         {
+            // Make the prism float above the player
             transform.position = player.position + new Vector3(0, 0.8f, 0);
         }
 
-        if (prismCollected && Input.GetKeyDown(KeyCode.J))
+        if (prismCollected && Input.GetMouseButtonDown(0))
         {
-            ChangePrismColor();
+            ChangePrismColor(-1); // Left mouse click for the previous color
+            Debug.Log("Left mouse button clicked, changing to previous color");
+        }
+
+        if (prismCollected && Input.GetMouseButtonDown(1))
+        {
+            ChangePrismColor(1); // Right mouse click for the next color
+            Debug.Log("Right mouse button clicked, changing to next color");
         }
     }
 
-    // Changes color of prism based on array and calls function to turn off/on platforms
-    private void ChangePrismColor()
+    // Changes the color of the prism and updates platform properties
+    private void ChangePrismColor(int direction)
     {
-        currentColorIndex = (currentColorIndex + 1) % prismColors.Length;
+        // Calculate the new color index
+        currentColorIndex = (currentColorIndex + direction + prismColors.Length) % prismColors.Length;
 
         if (prismRenderer != null)
         {
             prismRenderer.color = prismColors[currentColorIndex];
         }
 
-        for (int i = 0; i < platform.Length; i++)
+        // Tag for the current color index
+        string targetTag = "PlatformTag" + currentColorIndex; // Example: PlatformTag0, PlatformTag1, etc.
+
+        // Activate platforms with the target tag
+        GameObject[] activePlatforms = GameObject.FindGameObjectsWithTag(targetTag);
+        foreach (GameObject platform in activePlatforms)
         {
-            if (i == currentColorIndex)
-            {
-                SetPlatformProperties(platform[i], "Ground", 1f);
-                Debug.Log($"Platform {i} activated");
-            }
-            else
-            {
-                SetPlatformProperties(platform[i], "TransparentPlatform", 0.3f);
-                Debug.Log($"Platform {i} deactivated");
-            }
+            SetPlatformProperties(platform, "Ground", 1f);
+            Debug.Log($"Activated platform with tag {targetTag}: {platform.name}");
         }
 
+        // Deactivate platforms with other tags
+        for (int i = 0; i < prismColors.Length; i++)
+        {
+            if (i != currentColorIndex)
+            {
+                string otherTag = "PlatformTag" + i; // Other tags
+                GameObject[] inactivePlatforms = GameObject.FindGameObjectsWithTag(otherTag);
+                foreach (GameObject platform in inactivePlatforms)
+                {
+                    SetPlatformProperties(platform, "TransparentPlatform", 0.3f);
+                    Debug.Log($"Deactivated platform with tag {otherTag}: {platform.name}");
+                }
+            }
+        }
     }
 
-
-    // I used ChatGPT for how to make the platforms switch between layers of solid and trasparency
-    // It suggested making a solidPlatform layer and a transparentPlatform layer
-    // And it provided this function code for setting platform layer and opacity
+    // Sets the layer and transparency for a platform
     private void SetPlatformProperties(GameObject platformObject, string layerName, float alpha)
     {
         platformObject.layer = LayerMask.NameToLayer(layerName);
-        
+
         SpriteRenderer sr = platformObject.GetComponent<SpriteRenderer>();
         if (sr != null)
         {

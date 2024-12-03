@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Audio
+  - PlatformTag0
+  - PlatformTag1
+  - PlatformTag2
   layers:
   - Default
   - TransparentFX
