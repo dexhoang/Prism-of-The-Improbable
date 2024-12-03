@@ -1,0 +1,1177 @@
+fileFormatVersion: 2
+guid: 23c5b83ce9977af41979ffe9f9da9595
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8262461011990559505
+    second: instruct5_0
+  - first:
+      213: 8003135390456543996
+    second: instruct5_1
+  - first:
+      213: 4626016738753419421
+    second: instruct5_2
+  - first:
+      213: -5494067287858028510
+    second: instruct5_3
+  - first:
+      213: 3959895741523945833
+    second: instruct5_4
+  - first:
+      213: -432085541746111374
+    second: instruct5_5
+  - first:
+      213: 6758852688562166658
+    second: instruct5_6
+  - first:
+      213: -5105659590794079821
+    second: instruct5_7
+  - first:
+      213: -81393152282009417
+    second: instruct5_8
+  - first:
+      213: -1174026685238803778
+    second: instruct5_9
+  - first:
+      213: 6914202584957273153
+    second: instruct5_10
+  - first:
+      213: -9190946181940967530
+    second: instruct5_11
+  - first:
+      213: -4158473524673750532
+    second: instruct5_12
+  - first:
+      213: -6972057583090560888
+    second: instruct5_13
+  - first:
+      213: -4830912569170788377
+    second: instruct5_14
+  - first:
+      213: 5690039426835051417
+    second: instruct5_15
+  - first:
+      213: 8665897327296552313
+    second: instruct5_16
+  - first:
+      213: -8034568076826355460
+    second: instruct5_17
+  - first:
+      213: -9181668466681880343
+    second: instruct5_18
+  - first:
+      213: -7233182782567884704
+    second: instruct5_19
+  - first:
+      213: 798829085633413630
+    second: instruct5_20
+  - first:
+      213: 8349066290221904136
+    second: instruct5_21
+  - first:
+      213: -4231344408319525204
+    second: instruct5_22
+  - first:
+      213: -2934055031219325916
+    second: instruct5_23
+  - first:
+      213: 8788132398788822901
+    second: instruct5_24
+  - first:
+      213: -2090649065324455448
+    second: instruct5_25
+  - first:
+      213: -2929942984529791175
+    second: instruct5_26
+  - first:
+      213: -7026055134643153347
+    second: instruct5_27
+  - first:
+      213: -4145122660970687897
+    second: instruct5_28
+  - first:
+      213: -6175920524494427916
+    second: instruct5_29
+  - first:
+      213: -3729374610541361149
+    second: instruct5_30
+  - first:
+      213: 6315720119838259655
+    second: instruct5_31
+  - first:
+      213: -129477242788221387
+    second: instruct5_32
+  - first:
+      213: 6726068021046138984
+    second: instruct5_33
+  - first:
+      213: 7830313118314071435
+    second: instruct5_34
+  - first:
+      213: -6927420444532651968
+    second: instruct5_35
+  - first:
+      213: 9062197141458399776
+    second: instruct5_36
+  - first:
+      213: 6396341913240883538
+    second: instruct5_37
+  - first:
+      213: -8303038684774815257
+    second: instruct5_38
+  - first:
+      213: 5511010964248170313
+    second: instruct5_39
+  - first:
+      213: -468566345013547303
+    second: instruct5_40
+  - first:
+      213: -2189470022081128259
+    second: instruct5_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: instruct5_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 324
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b363693882aa270800000000000000
+      internalID: 8262461011990559505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 72
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfaf4853c39d01f60800000000000000
+      internalID: 8003135390456543996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 72
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d989866d6b9e23040800000000000000
+      internalID: 4626016738753419421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 72
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220e02719e621c3b0800000000000000
+      internalID: -5494067287858028510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_4
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 72
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969ed1d423064f630800000000000000
+      internalID: 3959895741523945833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_5
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 72
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c04a33d7ce00af0800000000000000
+      internalID: -432085541746111374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_6
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 72
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b11f6d5b44ccd50800000000000000
+      internalID: 6758852688562166658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 72
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b117a237ad0529b0800000000000000
+      internalID: -5105659590794079821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_8
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 72
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0e417fb55dedef0800000000000000
+      internalID: -81393152282009417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_9
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 72
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2038533f405bfe0800000000000000
+      internalID: -1174026685238803778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_10
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 72
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14447753e9e24ff50800000000000000
+      internalID: 6914202584957273153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_11
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 72
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6970daba423337080800000000000000
+      internalID: -9190946181940967530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_12
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 72
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf954f1ac522a46c0800000000000000
+      internalID: -4158473524673750532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_13
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 72
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880915651964e3f90800000000000000
+      internalID: -6972057583090560888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_14
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 72
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7effa951d9625fcb0800000000000000
+      internalID: -4830912569170788377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_15
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 39
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993787a26b417fe40800000000000000
+      internalID: 5690039426835051417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_16
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 39
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d948d84b3734870800000000000000
+      internalID: 8665897327296552313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_17
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 39
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf8521137ea7f7090800000000000000
+      internalID: -8034568076826355460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_18
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 39
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e065061d29249080800000000000000
+      internalID: -9181668466681880343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_19
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 39
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068d19115929e9b90800000000000000
+      internalID: -7233182782567884704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_20
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 39
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef10e6d22d2061b00800000000000000
+      internalID: 798829085633413630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_21
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 39
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8017dd24e87ddd370800000000000000
+      internalID: 8349066290221904136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_22
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 39
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae77c3edae3745c0800000000000000
+      internalID: -4231344408319525204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_23
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 39
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42479b09e742847d0800000000000000
+      internalID: -2934055031219325916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_24
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 39
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577c8ecead7b5f970800000000000000
+      internalID: 8788132398788822901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_25
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 39
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9555770c58cf2e0800000000000000
+      internalID: -2090649065324455448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_26
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 39
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93734fa0160c657d0800000000000000
+      internalID: -2929942984529791175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_27
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 39
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d361947a4107e7e90800000000000000
+      internalID: -7026055134643153347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_28
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 39
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7629b62d6e09976c0800000000000000
+      internalID: -4145122660970687897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_29
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 39
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f827702109ba4aa0800000000000000
+      internalID: -6175920524494427916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_30
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 5
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30842500d899e3cc0800000000000000
+      internalID: -3729374610541361149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_31
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 5
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c93fb3acf1f5a750800000000000000
+      internalID: 6315720119838259655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_32
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 5
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e6c193221043ef0800000000000000
+      internalID: -129477242788221387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_33
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 5
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868d1999a3bc75d50800000000000000
+      internalID: 6726068021046138984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_34
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 5
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8501395b4cdaac60800000000000000
+      internalID: 7830313118314071435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_35
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 5
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0484ad90fcbdcdf90800000000000000
+      internalID: -6927420444532651968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_36
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 5
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022303d594463cd70800000000000000
+      internalID: 9062197141458399776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_37
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 5
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2515aa0b41f54c850800000000000000
+      internalID: 6396341913240883538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_38
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 5
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9abadbe4ea5cc80800000000000000
+      internalID: -8303038684774815257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_39
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 5
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f8b4df54b0b7c40800000000000000
+      internalID: 5511010964248170313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_40
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 5
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dea3cb44615f79f0800000000000000
+      internalID: -468566345013547303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instruct5_41
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 5
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8dc7f7d907d91e0800000000000000
+      internalID: -2189470022081128259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: cd8b9d5edc16d4f469126dbdd8886203
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      instruct5_0: 8262461011990559505
+      instruct5_1: 8003135390456543996
+      instruct5_10: 6914202584957273153
+      instruct5_11: -9190946181940967530
+      instruct5_12: -4158473524673750532
+      instruct5_13: -6972057583090560888
+      instruct5_14: -4830912569170788377
+      instruct5_15: 5690039426835051417
+      instruct5_16: 8665897327296552313
+      instruct5_17: -8034568076826355460
+      instruct5_18: -9181668466681880343
+      instruct5_19: -7233182782567884704
+      instruct5_2: 4626016738753419421
+      instruct5_20: 798829085633413630
+      instruct5_21: 8349066290221904136
+      instruct5_22: -4231344408319525204
+      instruct5_23: -2934055031219325916
+      instruct5_24: 8788132398788822901
+      instruct5_25: -2090649065324455448
+      instruct5_26: -2929942984529791175
+      instruct5_27: -7026055134643153347
+      instruct5_28: -4145122660970687897
+      instruct5_29: -6175920524494427916
+      instruct5_3: -5494067287858028510
+      instruct5_30: -3729374610541361149
+      instruct5_31: 6315720119838259655
+      instruct5_32: -129477242788221387
+      instruct5_33: 6726068021046138984
+      instruct5_34: 7830313118314071435
+      instruct5_35: -6927420444532651968
+      instruct5_36: 9062197141458399776
+      instruct5_37: 6396341913240883538
+      instruct5_38: -8303038684774815257
+      instruct5_39: 5511010964248170313
+      instruct5_4: 3959895741523945833
+      instruct5_40: -468566345013547303
+      instruct5_41: -2189470022081128259
+      instruct5_5: -432085541746111374
+      instruct5_6: 6758852688562166658
+      instruct5_7: -5105659590794079821
+      instruct5_8: -81393152282009417
+      instruct5_9: -1174026685238803778
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
