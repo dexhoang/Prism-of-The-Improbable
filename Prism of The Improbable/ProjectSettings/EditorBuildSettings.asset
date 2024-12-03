@@ -15,7 +15,16 @@ EditorBuildSettings:
     path: Assets/Scenes/Level1Scene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Level2Scene.unity
-    guid: 73595c0e624c8450588a594d1ae17402
+    path: Assets/Scenes/Shuhao 1.unity
+    guid: fe837be463b9444f196c9b3b446cea3b
+  - enabled: 1
+    path: Assets/Scenes/Jasmine 1.unity
+    guid: eb487aea9e4e94b5f86a0e92ebd674ce
+  - enabled: 1
+    path: Assets/Scenes/Jasmine 2.unity
+    guid: 4c9bd3f1d432f4d8ebafeef2580ba9ba
+  - enabled: 1
+    path: Assets/Scenes/Shuhao 2.unity
+    guid: dc09833c7127d43be8ffbf2182f3bfe6
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

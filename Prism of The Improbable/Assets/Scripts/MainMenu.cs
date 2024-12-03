@@ -34,6 +34,14 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(4);
     }
+    public void Lvl4Scene()
+    {
+        SceneManager.LoadSceneAsync(5);
+    }
+    public void Lvl5Scene()
+    {
+        SceneManager.LoadSceneAsync(6);
+    }
 
     public void QuitGame()
     {

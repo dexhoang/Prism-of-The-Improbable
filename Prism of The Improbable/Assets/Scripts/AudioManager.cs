@@ -18,6 +18,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip key;
     public AudioClip damage;
     public AudioClip jump;
+    public AudioClip recover;
 
     // Start is called before the first frame update
     void Start()
