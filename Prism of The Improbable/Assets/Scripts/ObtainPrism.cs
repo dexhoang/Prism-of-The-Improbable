@@ -14,6 +14,13 @@ public class ObtainPrism : MonoBehaviour
     private bool prismCollected = false;
     private SpriteRenderer prismRenderer;
 
+    AudioManager audioManager;
+
+    public void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     private void Start()
     {
         prismRenderer = GetComponent<SpriteRenderer>();
@@ -32,6 +39,7 @@ public class ObtainPrism : MonoBehaviour
             SetPlatformProperties(platform[0], "Ground", 1f);
             Debug.Log("Prism collected, floating above player");
 
+            audioManager.PlaySFX(audioManager.prism);       // play sound effect
         }
     }
 
@@ -92,3 +100,5 @@ public class ObtainPrism : MonoBehaviour
         }
     }
 }
+
+ 
