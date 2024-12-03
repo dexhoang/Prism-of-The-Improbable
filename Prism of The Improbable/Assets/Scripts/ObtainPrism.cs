@@ -64,10 +64,22 @@ public class ObtainPrism : MonoBehaviour
             Debug.Log("Left mouse button clicked, changing to previous color");
         }
 
+        if (prismCollected && Input.GetKeyDown(KeyCode.J))
+        {
+            ChangePrismColor(-1); // Left mouse click for the previous color
+            Debug.Log("Left mouse button clicked, changing to previous color");
+        }
+
         if (prismCollected && Input.GetMouseButtonDown(1))
         {
             ChangePrismColor(1); // Right mouse click for the next color
             Debug.Log("Right mouse button clicked, changing to next color");
+        }
+
+        if (prismCollected && Input.GetKeyDown(KeyCode.K))
+        {
+            ChangePrismColor(-1); // Left mouse click for the previous color
+            Debug.Log("Left mouse button clicked, changing to previous color");
         }
     }
 
