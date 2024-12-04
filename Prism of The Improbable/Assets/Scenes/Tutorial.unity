@@ -1065,7 +1065,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keys:
   - {fileID: 1718515290}
-  - {fileID: 920051575}
   player: {fileID: 1862854403}
 --- !u!212 &402120449
 SpriteRenderer:

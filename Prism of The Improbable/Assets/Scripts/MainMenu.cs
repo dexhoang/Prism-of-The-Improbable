@@ -26,19 +26,19 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(2);
     }
-    public void Lvl2Scene()
+    public void Jas1Scene()
     {
         SceneManager.LoadSceneAsync(3);
     }
-    public void Lvl3Scene()
+    public void Jas2Scene()
     {
         SceneManager.LoadSceneAsync(4);
     }
-    public void Lvl4Scene()
+    public void Shu1Scene()
     {
         SceneManager.LoadSceneAsync(5);
     }
-    public void Lvl5Scene()
+    public void Shu2Scene()
     {
         SceneManager.LoadSceneAsync(6);
     }

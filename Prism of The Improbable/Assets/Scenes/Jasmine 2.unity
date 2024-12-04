@@ -1956,7 +1956,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keys:
   - {fileID: 1718515290}
-  - {fileID: 0}
   player: {fileID: 1862854403}
 --- !u!212 &402120449
 SpriteRenderer:
@@ -2088,7 +2087,7 @@ MonoBehaviour:
   winCanvas: {fileID: 976688311}
   loseCanvas: {fileID: 2042414002}
   otherMenu: {fileID: 2080634868}
-  requiredKeys: 2
+  requiredKeys: 1
 --- !u!1 &418067059
 GameObject:
   m_ObjectHideFlags: 0
@@ -2551,7 +2550,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1983524126}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: Lvl2Scene
+        m_MethodName: Shu1Scene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
