@@ -26,5 +26,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Shuhao 2.unity
     guid: dc09833c7127d43be8ffbf2182f3bfe6
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: aa5fd13e6b73a470c842795a91500cdf
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
