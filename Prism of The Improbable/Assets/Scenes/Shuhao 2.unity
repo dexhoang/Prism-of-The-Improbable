@@ -2953,10 +2953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c50bb5e73d8b64d799ad8533e02b3ff0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prismSprites:
-  - {fileID: -5267975983957325481, guid: 9f21b9e6666f71d448a3205a869e4c14, type: 3}
-  - {fileID: -2038271728097057654, guid: 76329e86a58ce474b80020f0b97ed391, type: 3}
-  - {fileID: 675576157533727509, guid: 1c5f4d60bff7b8c4891d8cfcbada2636, type: 3}
+  prismSprites: []
   player: {fileID: 1862854405}
 --- !u!212 &686687911
 SpriteRenderer:
@@ -3006,7 +3003,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.15, y: 1.2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -4457,7 +4454,7 @@ MonoBehaviour:
   key: {fileID: 8300000, guid: 881e3f52c86c94f26a60718d35627cd8, type: 3}
   damage: {fileID: 8300000, guid: d46323e22e74e46baa241cbf48c85671, type: 3}
   jump: {fileID: 8300000, guid: 2c5292ba5cf254919a6b9e2b18e04f49, type: 3}
-  recover: {fileID: 8300000, guid: ffb159a21c8a04135a5616979c828fab, type: 3}
+  recover: {fileID: 0}
 --- !u!4 &1135109877
 Transform:
   m_ObjectHideFlags: 0
