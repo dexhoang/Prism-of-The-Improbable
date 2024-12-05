@@ -1960,10 +1960,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Credits:\nVolumeSettings.cs referenced by Hooson\n\nStickman, character
-    controller, prism asset and animations by Alan\nPrism and platform mechanics
-    by Dexter\nLevel design, camera movement by Jasmine \nLevel design by Shuhao\nMenus,
-    sound and health mechanic by Grace \n"
+  m_text: "Credits:\nVolumeSettings.cs referenced by Hooson\n\nAlan: Stickman, character
+    controller, prism asset and animations, tutorial level design\nDexter: Prism,
+    key, platform mechanics\nJasmine: Level design, camera movement, background design\nShuhao:
+    Level design\nGrace: Menus, sound and other mechnanic \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4273,7 +4273,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 539379951}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
