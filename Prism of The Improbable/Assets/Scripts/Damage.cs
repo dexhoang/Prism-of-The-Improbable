@@ -29,6 +29,9 @@ public class Damage : MonoBehaviour
             {
                 // Decrease player's health
                 playerHealthComponent.health -= damage;
+                
+                // Update GameManager
+                GameManager.instance.SetPlayerHealth(playerHealthComponent.health);
                 Debug.Log("Health: " + playerHealthComponent.health);
 
                 // Respawn player to the last checkpoint

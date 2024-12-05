@@ -18,6 +18,18 @@ public class playerHealth : MonoBehaviour
     public Sprite fullHeart;
     public Sprite emptyHeart;
 
+    private Vector3 respawnPosition;
+
+    private void Start()
+    {
+        // Initialize health and max hearts from the GameManager
+        health = GameManager.instance.GetPlayerHealth();
+        numOfHearts = GameManager.instance.numOfHearts;
+
+        // Set initial respawn position to the player's starting position
+        respawnPosition = transform.position;
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -47,14 +59,9 @@ public class playerHealth : MonoBehaviour
             GameOverCanvas.instance.TriggerGameOver();
             gameObject.SetActive(false);
         }
-    }
 
-    private Vector3 respawnPosition;
-
-    private void Start()
-    {
-        // Set initial respawn position to the player's starting position
-        respawnPosition = transform.position;
+        // Synchronize health with the GameManager
+        GameManager.instance.SetPlayerHealth(health);
     }
 
     public void SetRespawnPosition(Vector3 newPosition)
@@ -67,6 +74,7 @@ public class playerHealth : MonoBehaviour
         // Reset the player's position to the last checkpoint
         transform.position = respawnPosition;
         health = health;
+        health = GameManager.instance.GetPlayerHealth();
     }
 
 } 
