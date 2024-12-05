@@ -5318,7 +5318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 397505074}
   SFXSource: {fileID: 1809195296}
-  background: {fileID: 8300000, guid: bef0cef2ded0f0645ad90c6e5bdd4965, type: 3}
+  background: {fileID: 8300000, guid: 51a4f1157b7ff1449b5e5cf064d584c7, type: 3}
   prism: {fileID: 8300000, guid: 52320e590bf774734a288886eba557ba, type: 3}
   door: {fileID: 8300000, guid: 7478151cf36724a7dada558f746c3633, type: 3}
   key: {fileID: 8300000, guid: 881e3f52c86c94f26a60718d35627cd8, type: 3}
