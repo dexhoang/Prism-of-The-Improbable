@@ -35,7 +35,7 @@ public class WinLoseScreen : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            if (keysCollected >= requiredKeys)
+            if (keysCollected == requiredKeys)
             {
                 // Player has enough keys
                 if (otherMenu != null)
