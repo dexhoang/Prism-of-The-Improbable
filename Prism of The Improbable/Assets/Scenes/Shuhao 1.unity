@@ -1577,7 +1577,7 @@ MonoBehaviour:
   winCanvas: {fileID: 976688311}
   loseCanvas: {fileID: 1447887811}
   otherMenu: {fileID: 2080634868}
-  requiredKeys: 2
+  requiredKeys: 3
 --- !u!1 &418067059
 GameObject:
   m_ObjectHideFlags: 0
