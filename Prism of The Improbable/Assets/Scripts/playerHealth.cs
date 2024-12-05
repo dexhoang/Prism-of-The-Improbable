@@ -58,6 +58,7 @@ public class playerHealth : MonoBehaviour
         {
             GameOverCanvas.instance.TriggerGameOver();
             gameObject.SetActive(false);
+            health = 4;
         }
 
         // Synchronize health with the GameManager
